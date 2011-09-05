@@ -45,7 +45,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := libasound
 
-LOCAL_PRELINK_MODULE := false
+LOCAL_PRELINK_MODULE := true
 LOCAL_ARM_MODE := arm
 
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/include
